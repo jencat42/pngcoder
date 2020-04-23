@@ -4,6 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
+    license='MIT',
     name="pngcoder",
     version="1.0",
     author="JenCat",
@@ -13,10 +14,8 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/jencat42/pngcoder",
     packages=["src"],
-    classifiers=[
-        "Obfuscation",
-        "Encoder"
-    ],
+    keywords='obfuscate obfuscator encode encoder png binary',
+    include_package_data=True,
     python_requires='>=3.7',
     install_requires=[
         'Pillow',
