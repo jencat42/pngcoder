@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     license='MIT',
     name="pngcoder",
-    version="1.0",
+    version="1.1",
     author="JenCat",
     author_email="jencat@ex.ua",
     description="Encode (obfuscate) any file to PNG and vise versa",
@@ -21,7 +21,7 @@ setuptools.setup(
         'Pillow',
     ],
     entry_points={
-        'console_scripts': ['pngcoder=src.pngcoder'],
+        'console_scripts': ['pngcoder=src.pngcoder:main'],
     },
     classifiers=[
         'Development Status :: 4 - Beta',
