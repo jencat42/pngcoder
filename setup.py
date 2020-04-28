@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     license='MIT',
     name="pngcoder",
-    version="1.2",
+    version="1.3",
     author="JenCat",
     author_email="jencat@ex.ua",
     description="Encode (obfuscate) any file to PNG or WAV and vise versa",
