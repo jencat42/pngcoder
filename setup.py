@@ -28,8 +28,8 @@ setuptools.setup(
     },
     classifiers=[
         'Development Status :: 4 - Beta',
-        'Intended Audience :: Any',
-        'Topic :: Obfuscator :: Encoder',
+        'Intended Audience :: End Users/Desktop',
+        'Topic :: Utilities',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
     ],
